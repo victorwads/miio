@@ -3,7 +3,7 @@
 * **Devices**: Mi Humidifier
 * **Model identifiers**: `zhimi.humidifier.v1`
 
-Humidifiers are turned into devices of type [humidifer][humidifier]
+Humidifiers are turned into devices of type [humidifier][humidifier]
 and by default support [power switching][switchable-power] and 
 [setting their mode][switchable-mode]. The Mi Humidifier are also
 [sensors][sensor] and can report the [temperature][temp] and
@@ -76,7 +76,7 @@ console.log('Relative humidity:', rh);
 ### Power - [`cap:power`][power] and [`cap:switchable-power`][switchable-power]
 
 * `device.power()` - get if the humidifier is currently active
-* `device.power(boolean)` - switch the humidifer is on, returns a promise
+* `device.power(boolean)` - switch the humidifier is on, returns a promise
 * `device.setPower(boolean)` - change the power state of the device, returns a promise
 * `device.on('powerChanged', isOn => ...)` - listen for power changes
 
