@@ -1,6 +1,6 @@
 {
   "name": "@rifat/miio",
-  "version": "0.15.5",
+  "version": "0.15.6",
   "license": "MIT",
   "description": "Control Mi Home devices, such as Mi Robot Vacuums, Mi Air Purifiers, Mi Smart Home Gateway (Aqara) and more",
   "repository": "torifat/miio",
@@ -14,7 +14,7 @@
     "mijia"
   ],
   "bin": {
-    "miio": "./cli/index.js"
+    "miio": "cli/index.js"
   },
   "scripts": {
     "test": "eslint ."
